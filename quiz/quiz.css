@@ -1,0 +1,144 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color:#e6f0ee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 1rem;
+  font-family: sans-serif;
+}
+.container{
+  background-color: 	whitesmoke;
+  border-radius: 1rem;
+  box-shadow: 5px 5px 5px black;
+  width: 100%;
+  max-width: 600px;
+  overflow: hidden;
+  position: relative;
+}
+.start{
+  display: none;
+  padding: 2rem;
+  text-align: center;
+}
+.start.active{
+  display: block;
+}
+#startscreen h1{
+  color:#732d91;
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+}
+
+#startscreen p{
+ margin-bottom: 10px;
+ font-size: large;
+ font-family: 'Lucida Sans';
+}
+.quizheader{
+  margin-bottom:2rem;
+}
+#questions{
+  color:#000000;
+  font-size:1.5rem ;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+.quizinfo{
+  justify-content: space-between;
+  display: flex;
+  color: rgba(0, 0, 0, 0.773);
+  margin-bottom: 20px;
+}
+.options{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.answer-button{
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+  border-radius: 15px;
+  padding: 0.5rem;
+  cursor:pointer;
+  text-align: left;
+  transition: all 0.2s ;
+}
+.answer-button:hover{
+  background-color: rgba(61, 61, 60, 0.115);
+}
+
+.progressbar{
+  height:10px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-top: 20px;
+  border: 1px rgba(0, 0, 0, 0.081)  solid;
+}
+.progress-bar{
+  height: 100%;
+  background-color: orangered;
+  width: 0%;
+  transition: all 0.5s ;
+  
+}
+#result-screen h1{
+  color: #1f2d3d;
+  margin-bottom: px;
+}
+.results-info{
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 0px;
+}
+#result-message{
+  font-size: 2rem;
+  color: #1f2d3d;
+  font-weight: 600;
+  margin-top: 5px;
+  margin-bottom:ppx ;
+}
+
+button{
+  background-color:#8E44AD;
+  border: none;
+  color: white;
+  font-size: 1.1rem;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 10px;
+  transition: background-color 0.3s ease
+}
+
+button:hover{
+  opacity: 0.9;
+  
+}
+ .social-media img {
+  width: 50px;
+  height: 50px;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+  .social-media {
+  position: fixed;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
+  
+  .social-media img:hover {
+  transform: scale(1.1);
+}
+.social-media a  {
+  text-decoration: none;
+}
